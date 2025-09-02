@@ -1,0 +1,54 @@
+{
+  "name": "Pebble Source",
+  "subtitle": "A source for Pebble",
+  "description": "Hosting pebble app from rebble.io ",
+  "iconURL": "https://i.imgur.com/pqIZoZo.jpeg",
+  "website": "",
+  "patreonURL": "",
+  "tintColor": "#6156e2",
+  "featuredApps": [
+    "com.getpebble.pebbletime"
+  ],
+  "apps": [
+    {
+      "name": "PebbleTime",
+      "bundleIdentifier": "com.getpebble.pebbletime",
+      "marketplaceID": "",
+      "developerName": "Example Developer",
+      "subtitle": "An awesome app.",
+      "localizedDescription": "This is an awesome app only available on AltStore.",
+      "iconURL": "https://i.imgur.com/L8W0P7o.png",
+      "tintColor": "#7f7f7f",
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://kennedn.com/com.getpebble.pebbletime-iPhone13.ipa",
+          "size": 27500000,
+          "version": "4.4",
+          "buildVersion": null,
+          "date": "2025-09-02T19:32:00+02:00",
+          "localizedDescription": null,
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSContactsUsageDescription": "We use your contacts information to match contact names to phone numbers and emails. Contact information is not transmitted to Pebble or to any apps installed on your watch.",
+          "NSPhotoLibraryUsageDescription": "Some watchapps or watchfaces might use your photo library to customize them. Once you give permission to one of them, others might use the same permission. Photo information is not shared with the app and it is only available to the watchapps that you install on your Pebble.",
+          "NSRemindersUsageDescription": "Grant access to iOS Reminders to see them populate on your Timeline. In addition to getting a notification, you’ll be able to see what reminders you have set for later in the day or tomorrow.",
+          "NSCameraUsageDescription": "Some watchapps or watchfaces might use your camera to customize them. Once you give permission to one of them, others might use the same permission. Photo information is not shared with the app and it is only available to the watchapps that you install on your Pebble.",
+          "NSLocationAlwaysUsageDescription": "Some watch apps use your location to show you local information, such as weather or restaurants near you. Location information is only available to the watch apps that you install on your Pebble.",
+          "NSBluetoothPeripheralUsageDescription": "We use Bluetooth Low Energy to deliver notifications to your Pebble.",
+          "NSLocationUsageDescription": "Some watch apps use your location to show you local information, such as weather or restaurants near you. Location information is only available to the watch apps that you install on your Pebble.",
+          "NSCalendarsUsageDescription": "We use your calendar information to push your events to the watch timeline. Calendar information is not collected by Pebble or apps installed on your watch.",
+          "NSHealthUpdateUsageDescription": "We save your health data like Steps and Sleep to the Apple Health app.",
+          "NSHealthShareUsageDescription": "We keep track of your health data like Steps and Sleep from the Apple Health app."
+        }
+      },
+      "patreon": {}
+    }
+  ],
+  "news": []
+}
