@@ -1,17 +1,15 @@
 {
   "name": "Pebble Source",
   "subtitle": "A source for Pebble",
-  "description": "Hosting pebble app from rebble.io ",
+  "description": "Hosting pebble app from rebble.io",
   "iconURL": "https://i.imgur.com/pqIZoZo.jpeg",
   "tintColor": "#6156e2",
-  "featuredApps": [
-    "com.getpebble.pebbletime"
-  ],
+  "featuredApps": ["com.getpebble.pebbletime"],
   "apps": [
     {
       "name": "PebbleTime",
       "bundleIdentifier": "com.getpebble.pebbletime",
-      "marketplaceID": "",
+      "marketplaceID": "1857EA18-0E95-44EA-B5DD-3257D03BECB4",
       "developerName": "Example Developer",
       "subtitle": "An awesome app.",
       "localizedDescription": "This is an awesome app only available on AltStore.",
@@ -21,13 +19,12 @@
       "screenshots": [],
       "versions": [
         {
-          "downloadURL": "https://github.com/SimonIlic/rebble/raw/refs/heads/main/com.getpebble.pebbletime-iPhone13.ipa",
+          "downloadURL": "https://raw.githubusercontent.com/SimonIlic/rebble/main/com.getpebble.pebbletime-iPhone13.ipa",
           "size": 27500000,
           "version": "4.4",
           "buildVersion": "20170310193241",
           "date": "2025-09-02T19:32:00+02:00",
-          "localizedDescription": null,
-          "minOSVersion": null
+          "localizedDescription": "Initial PAL release"
         }
       ],
       "appPermissions": {
@@ -44,8 +41,7 @@
           "NSHealthUpdateUsageDescription": "We save your health data like Steps and Sleep to the Apple Health app.",
           "NSHealthShareUsageDescription": "We keep track of your health data like Steps and Sleep from the Apple Health app."
         }
-      },
-      "patreon": {}
+      }
     }
   ],
   "news": []
